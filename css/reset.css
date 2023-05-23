@@ -5,7 +5,7 @@ fieldset, p, button,figcaption, figure{margin: 0; padding: 0;}
 
 /* 링크초기화 */
 a{color: #222; text-decoration: none;}
-a:hover{}
+a:hover{color:#2698cd}
 
 /* 폰트초기화 */
 body, input, textarea, select, button, table{
@@ -37,8 +37,10 @@ img{width: 100%;}
 /* button 초기화 */
 button{border:0}
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: block;
     clear: both;
 }
+/* 블릿기호 */
+ul,li,ol{list-style: none;}
